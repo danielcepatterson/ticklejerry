@@ -3,24 +3,23 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-// Array of Jerry Garcia images - Using high-quality public domain images
+// Array of Jerry Garcia images
 const jerryImages = [
-	"https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&h=800&fit=crop",
-	"https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=800&fit=crop",
-	"https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=800&fit=crop",
-	"https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&h=800&fit=crop",
-	"https://images.unsplash.com/photo-1458560871784-56d23406c091?w=800&h=800&fit=crop",
+	"/images/jerry1.jpg",
+	"/images/jerry2.jpg",
+	"/images/jerry3.jpg",
+	"/images/jerry4.jpg",
+	"/images/jerry5.jpg",
 ];
 
-// Laughing Jerry images - These show more joyful/expressive versions
-// For now using similar images with different crops/effects
-// Replace these with actual AI-generated laughing versions
+// Laughing Jerry images - AI-altered versions
+// Using same images as placeholders until you add the laughing versions
 const laughingJerryImages = [
-	"https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&h=800&fit=crop&sat=20&brightness=10",
-	"https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=800&fit=crop&sat=20&brightness=10",
-	"https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=800&fit=crop&sat=20&brightness=10",
-	"https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=800&h=800&fit=crop&sat=20&brightness=10",
-	"https://images.unsplash.com/photo-1458560871784-56d23406c091?w=800&h=800&fit=crop&sat=20&brightness=10",
+	"/images/jerry1.jpg",
+	"/images/jerry2.jpg",
+	"/images/jerry3.jpg",
+	"/images/jerry4.jpg",
+	"/images/jerry5.jpg",
 ];
 
 function App() {
